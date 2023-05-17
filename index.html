@@ -2,137 +2,121 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
+  <meta charset="UTF-8">
   <title>Ömer Aslan</title>
-  <meta content="Öylesine" name="description">
-  <meta content="Ömer, Aslan" name="keywords">
+  <link rel="shortcut icon" type="image/jpg" href="pics/icon.png" />
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
 
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <link href="style.css" rel="stylesheet">
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet'
+    href='https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap'>
+  <link rel='stylesheet'
+    href='https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&amp;display=swap'>
+  <link rel='stylesheet' href='https://unicons.iconscout.com/release/v3.0.6/css/line.css'>
+  <link rel='stylesheet' href='https://unicons.iconscout.com/release/v3.0.6/css/solid.css'>
+  <link rel="stylesheet" href="./style.css">
 
 </head>
 
 <body>
+  <!-- partial:index.partial.html -->
+  <!-- #Cursor -->
+  <div class="cursor"></div>
+  <div id="cursor">
+    <div class="cursor-circle"></div>
+  </div>
 
-  <!-- ======= Mobile nav toggle button ======= -->
-  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+  <!-- Menu Images -->
+  <!-- Image 1 -->
+  <div id="m-img-1" class="menu-image-wrapper">
+    <img class="menu-image" src="pics/1.gif" alt="">
+    <img class="menu-image-back" src="pics/1.gif" alt="">
+  </div>
+  <!-- Image 2 -->
+  <div id="m-img-2" class="menu-image-wrapper">
+    <img class="menu-image" src="pics/2.gif" alt="">
+    <img class="menu-image-back" src="pics/2.gif" alt="">
+  </div>
+  <!-- Image 4 -->
+  <div id="m-img-3" class="menu-image-wrapper">
+    <img class="menu-image" src="pics/3.gif" alt="">
+    <img class="menu-image-back" sr="pics/3.gif" alt="">
+  </div>
+  <!-- Image 4 -->
+  <div id="m-img-4" class="menu-image-wrapper">
+    <img class="menu-image" src="pics/4.gif" alt="">
+    <img class="menu-image-back" src="pics/4.gif" alt="">
+  </div>
 
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="d-flex flex-column">
-
-      <div class="profile">
-        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Ömer Aslan</a></h1>
-        <div class="social-links mt-3 text-center">
-          <a href="https://github.com/ayaato" class="github"><i class="bx bxl-github"></i></a>
-          <a href="https://discord.com/users/965963899612573748" class="discord"><i class="bx bxl-discord"></i></a>
-          <a href="https://www.youtube.com/channel/UCwccqyvDr70PslgcUjXnQcw" class="youtube"><i
-              class="bx bxl-youtube"></i></a>
+  <!-- #Navbar -->
+  <nav id="navbar" class="flexbox">
+    <div class="navbar-inner">
+      <div class="navbar-left flexbox-left">
+        <div id="nav-button" cursor-class="arrow">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
       </div>
+      <div class="navbar-center">
 
-      <nav id="navbar" class="nav-menu navbar">
-        <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="sunum.zip"><i class="bx bx-user"></i> <span>Guess what?</span></a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
-      <h1>Ömer Aslan</h1>
-      <p>I'm <span class="typed" data-typed-items="Developer, Student, Freelancer"></span></p>
-    </div>
-  </section><!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>About</h2>
-          <h5>Bütün ilerlemeler insan fikrinin eseridir. Fikri harekete getirmek birinci işimiz olmalıdır. Bir kere
-            millet benliğine hakim olsun ve düşünebilsin yeter! Başlangıçta hatalı düşünse de az zaman sonra bu hatayı
-            düzeltebilir. Fikir bir kere faaliyete başladı mı her şey yavaş yavaş düzene girer ve düzelir. - Mustafa
-            Kemal Atatürk</h5>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
-            <img
-              src="https://lanyard-profile-readme.vercel.app/api/965963899612573748?theme=dark&bg=18191c&animated=false&hideDiscrim=true&borderRadius=30px"
-              alt="mystreak" />
-            <!-- <img src="assets/img/second-img.png" class="img-fluid" alt=""> -->
-          </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h1>Software Developer &amp; Student.</h1>
-            <p class="fst-italic">
-              I am a Software Engineering Student at H.a.m.t.a.l. I have good knowledge of Python, Sql, C#, Arduino and
-              Selenium technologies.
-            </p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>17</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Junior</span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>omeeraslan@hotmail.com</span>
-                  </li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <a
-                      href="https://bionluk.com/ayato"><span>Available</span></li></a>
-                </ul>
-              </div>
-            </div>
-            <p>
-              I also interest ethical hacking, electronical technologies, body building, chess, policy, philosophy,
-              theatre, writing articles and history.
-            </p>
-          </div>
-        </div>
       </div>
+      <div class="navbar-right flexbox-right">
+        <a href="https://bit.ly/3MkRGcC">
+          <p>ÖMERASLAN</p>
+        </a>
+      </div>
+    </div>
+  </nav>
 
-    </section><!-- End About Section -->
+  <!-- #Menu -->
+  <div class="menu-wrapper flexbox">
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/typed.js/typed.min.js"></script>
-    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <!-- Menu Right -->
+    <ul class="menu flexbox-col-left-start">
+      <li id="m-item-w-1" class="menu-item flexbox">
+          <h1 id="m-item-1" class="menu-item-inner" cursor-class="arrow">Ömer Aslan</h1>
+      </li>
+      <li id="m-item-w-2" class="menu-item flexbox">
+        <a href="https://github.com/Ayaato?tab=repositories">
+        <h1 id="m-item-2" class="menu-item-inner" cursor-class="arrow">Projects</h1>
+        </a>
+      </li>
+      <li id="m-item-w-3" class="menu-item flexbox">
+        <a href="https://telegram.me/omeeraslan">
+          <h1 id="m-item-3" class="menu-item-inner" cursor-class="arrow">Contact</h1>
+        </a>
+      </li>
+      <li id="m-item-w-4" class="menu-item flexbox">
+        <a href="https://dev.to/ayaato">
+          <h1 id="m-item-4" class="menu-item-inner" cursor-class="arrow">Blog</h1>
+        </a>
+      </li>
+    </ul>
+    <div class="menu-background"></div>
 
-    <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
+  </div>
+
+  <!-- #Header -->
+  <header id="header" class="flexbox">
+
+    <!-- Header Inner -->
+    <div class="header-wrapper flexbox">
+      <h1 class="header-title">Ömer</h1>
+      <h1 class="header-title">Aslan</h1>
+      <div class="header-overlay"></div>
+      <img class="header-image" src="pics/main.gif" alt="">
+    </div>
+
+    <!-- Header Blur -->
+    <img class="header-image-blur" src="pics/main.gif" alt="">
+
+  </header>
+  <!-- partial -->
+  <script src='https://code.jquery.com/jquery-3.5.1.js'></script>
+  <script src='https://code.jquery.com/ui/1.12.1/jquery-ui.js'></script>
+  <script src="./script.js"></script>
 
 </body>
 
