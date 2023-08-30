@@ -1,125 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ömer Aslan</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo"
+        >Ömer Aslan.<span class="animate" style="--i: 1"></span
+      ></a>
 
-<head>
-  <meta charset="UTF-8">
-  <title>Ömer Aslan</title>
-  <link rel="shortcut icon" type="image/jpg" href="pics/icon.png" />
+      <div class="bx bx-menu" id="menu-icon">
+        <span class="animate" style="--i: 2"></span>
+      </div>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
 
+        <span class="active-nav"></span>
+        <span class="animate" style="--i: 2"></span>
+      </nav>
+    </header>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel='stylesheet'
-    href='https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap'>
-  <link rel='stylesheet'
-    href='https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&amp;display=swap'>
-  <link rel='stylesheet' href='https://unicons.iconscout.com/release/v3.0.6/css/line.css'>
-  <link rel='stylesheet' href='https://unicons.iconscout.com/release/v3.0.6/css/solid.css'>
-  <link rel="stylesheet" href="./style.css">
+    <!-- home section -->
+    <section class="home show-animate" id="home">
+      <div class="home-content">
+        <h1>
+          Hi, I'm <span>Ömer Aslan</span
+          ><span class="animate" style="--i: 2"></span>
+        </h1>
+        <div class="text-animate">
+          <h3>Backend & AI Dev.</h3>
+          <span class="animate" style="--i: 3"></span>
+        </div>
+        <p>
+          "Soon we will invent an intelligence much greater than our own. When
+          this happens, human history will have achieved a kind of singularity,
+          an intellectual transition as insurmountable as the knotted space-time
+          at the center of a black hole, and the world will go far beyond our
+          comprehension."
+          <span class="animate" style="--i: 4"></span>
+        </p>
 
-</head>
-
-<body>
-  <!-- partial:index.partial.html -->
-  <!-- #Cursor -->
-  <div class="cursor"></div>
-  <div id="cursor">
-    <div class="cursor-circle"></div>
-  </div>
-
-  <!-- Menu Images -->
-  <!-- Image 1 -->
-  <div id="m-img-1" class="menu-image-wrapper">
-    <img class="menu-image" src="https://i.pinimg.com/564x/7a/b3/64/7ab364b49ceb22c6a70574d3e9974194.jpg" alt="">
-    <img class="menu-image-back" src="https://i.pinimg.com/564x/7a/b3/64/7ab364b49ceb22c6a70574d3e9974194.jpg" alt="">
-  </div>
-  <!-- Image 2 -->
-  <div id="m-img-2" class="menu-image-wrapper">
-    <img class="menu-image" src="https://i.pinimg.com/564x/75/bb/ab/75bbabc33eda4fb145bf2af30d3f50f1.jpg" alt="">
-    <img class="menu-image-back" src="https://i.pinimg.com/564x/75/bb/ab/75bbabc33eda4fb145bf2af30d3f50f1.jpg"alt="">
-  </div>
-  <!-- Image 4 -->
-  <div id="m-img-3" class="menu-image-wrapper">
-    <img class="menu-image" src="https://i.pinimg.com/564x/6e/a8/3e/6ea83e16380ebe67329a40b7471d2f8f.jpg" alt="">
-    <img class="menu-image-back" src="https://i.pinimg.com/564x/6e/a8/3e/6ea83e16380ebe67329a40b7471d2f8f.jpg" alt="">
-  </div>
-  <!-- Image 4 -->
-  <div id="m-img-4" class="menu-image-wrapper">
-    <img class="menu-image" src="https://i.pinimg.com/564x/e2/9e/da/e29edae6c0ac5bc7f9912f26fb477d25.jpg" alt="">
-    <img class="menu-image-back" src="https://i.pinimg.com/564x/e2/9e/da/e29edae6c0ac5bc7f9912f26fb477d25.jpg" alt="">
-  </div>
-
-  <!-- #Navbar -->
-  <nav id="navbar" class="flexbox">
-    <div class="navbar-inner">
-      <div class="navbar-left flexbox-left">
-        <div id="nav-button" cursor-class="arrow">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
+        <div class="btn-box">
+          <a href="#" class="btn">Contact Me!</a>
+          <a href="#" class="btn">Let's Talk</a>
+          <span class="animate" style="--i: 5"></span>
         </div>
       </div>
-      <div class="navbar-center">
 
+      <div class="home-sci">
+        <a href="https://www.youtube.com/@ayadev">
+          <i class="bx bxl-youtube"></i>
+        </a>
+        <a href="https://github.com/Ayaato">
+          <i class="bx bxl-github"></i>
+        </a>
+        <a href="https://discord.com/users/965963899612573748">
+          <i class="bx bxl-discord-alt"></i>
+        </a>
+        <span class="animate" style="--i: 6"></span>
       </div>
-      <div class="navbar-right flexbox-right">
-        <a href="https://ay.link/MMind">
-          <p>ÖMERASLAN</p>
-        </a>
+
+      <div class="home-imgHover"></div>
+      <span class="animate home-img" style="--i: 7"></span>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+      <h2 class="heading">
+        About <span>Me</span><span class="animate scroll" style="--i: 1"></span>
+      </h2>
+
+      <div class="about-img">
+        <img src="about.jpeg" alt="" />
+        <span class="circle-spin"></span>
+        <span class="animate scroll" style="--i: 2"></span>
       </div>
-    </div>
-  </nav>
 
-  <!-- #Menu -->
-  <div class="menu-wrapper flexbox">
+      <div class="about-content">
+        <h3>
+          Backend & AI Developer!<span
+            class="animate scroll"
+            style="--i: 3"
+          ></span>
+        </h3>
+        <p>
+          At the same time, entrepreneur, student, theater artist... Islamic
+          sciences , philosophy , science , technology and literature lover.
+          <span class="animate scroll" style="--i: 4"></span>
+        </p>
 
-    <!-- Menu Right -->
-    <ul class="menu flexbox-col-left-start">
-      <li id="m-item-w-1" class="menu-item flexbox">
-        <a href="https://linktr.ee/omerasln">
-          <h1 id="m-item-1" class="menu-item-inner" cursor-class="arrow">Ömer Aslan</h1>
-        </a>
-      </li>
-      <li id="m-item-w-2" class="menu-item flexbox">
-        <a href="https://github.com/Ayaato?tab=repositories">
-          <h1 id="m-item-2" class="menu-item-inner" cursor-class="arrow">Projects</h1>
-        </a>
-      </li>
-      <li id="m-item-w-3" class="menu-item flexbox">
-        <a href="https://telegram.me/omerasln">
-          <h1 id="m-item-3" class="menu-item-inner" cursor-class="arrow">Contact</h1>
-        </a>
-      </li>
-      <li id="m-item-w-4" class="menu-item flexbox">
-        <a href="https://dev.to/ayaato">
-          <h1 id="m-item-4" class="menu-item-inner" cursor-class="arrow">Blog</h1>
-        </a>
-      </li>
-    </ul>
-    <div class="menu-background"></div>
+        <div class="btn-box btns">
+          <a href="#" class="btn">Read More</a>
+          <span class="animate scroll" style="--i: 5"></span>
+        </div>
+      </div>
+    </section>
 
-  </div>
+    <!--projects section -->
+    <section class="projects" id="projects">
+      <h2 class="heading">
+        My <span>Projects</span>
+        <span class="animate scroll" style="--i: 1"></span>
+      </h2>
 
-  <!-- #Header -->
-  <header id="header" class="flexbox">
+      <div class="projects-row">
+        <div class="projects-column">
+          <h3 class="title">
+            AI Projects<span class="animate scroll" style="--i: 2"></span>
+          </h3>
 
-    <!-- Header Inner -->
-    <div class="header-wrapper flexbox">
-      <h1 class="header-title">Ömer</h1>
-      <h1 class="header-title">Aslan</h1>
-      <div class="header-overlay"></div>
-      <img class="header-image" src="https://w.forfun.com/fetch/8a/8ae1a2c256428e0df54a21cf453aa9f4.jpeg" alt="">
-    </div>
+          <div class="projects-box">
+            <div class="projects-content">
+              <div class="content">
+                <div class="rate"><i class="bx bx-brain"></i>1</div>
+                <h3>You Can Not Fool Me!</h3>
+                <p>
+                  Soon :)
+                </p>
+              </div>
+            </div>
 
-    <!-- Header Blur -->
-    <img class="header-image-blur" src="https://w.forfun.com/fetch/8a/8ae1a2c256428e0df54a21cf453aa9f4.jpeg" alt="">
+            <div class="projects-content">
+              <div class="content">
+                <div class="rate"><i class="bx bx-brain"></i>2</div>
+                <h3>Project #2</h3>
+                <p>
+                  Not yet announced.
+                </p>
+              </div>
+            </div>
 
-  </header>
-  <!-- partial -->
-  <script src='https://code.jquery.com/jquery-3.5.1.js'></script>
-  <script src='https://code.jquery.com/ui/1.12.1/jquery-ui.js'></script>
-  <script src="./script.js"></script>
+            <div class="projects-content">
+              <div class="content">
+                <div class="rate"><i class="bx bx-brain"></i>3</div>
+                <h3>Project #3</h3>
+                <p>
+                  Not yet announced.
+                </p>
+              </div>
+            </div>
+            <span class="animate scroll" style="--i: 3"></span>
+          </div>
+        </div>
 
-</body>
+        <div class="projects-column">
+          <h3 class="title">
+            Backend Projects<span class="animate scroll" style="--i: 5"></span>
+          </h3>
 
+          <div class="projects-box">
+            <div class="projects-content">
+              <div class="content">
+                <div class="rate"><i class="bx bx-code-curly"></i>1</div>
+                <h3>Ayabot</h3>
+                <p>
+                  It's a great discord bot equipped with profanity blocking,
+                  banning and kicking users, making sweepstakes, lots of
+                  artificial intelligence apis!
+                </p>
+              </div>
+            </div>
+
+            <div class="projects-content">
+              <div class="content">
+                <div class="rate"><i class="bx bx-code-curly"></i>2</div>
+                <h3>Advert Scrapper</h3>
+                <p>
+                  The python code that perfectly dumps the housing information
+                  from https://www.hepsiemlak.com/ into the sql database.
+                </p>
+              </div>
+            </div>
+
+            <div class="projects-content">
+              <div class="content">
+                <div class="rate"><i class="bx bx-code-curly"></i>3</div>
+                <h3>He Can Find All Pdfs</h3>
+                <p>
+                  Very soon! :)
+                </p>
+              </div>
+            </div>
+            <span class="animate scroll" style="--i: 6"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+      <h2 class="heading">
+        Contact <span>Me!</span>
+        <span class="animate scroll" style="--i: 1"></span>
+      </h2>
+
+      <form action="#">
+        <div class="input-box">
+          <div class="input-field">
+            <input type="text" placeholder="Full Name" required />
+            <span class="focus"></span>
+          </div>
+
+          <div class="input-field">
+            <input type="text" placeholder="Email Address" required />
+            <span class="focus"></span>
+          </div>
+
+          <span class="animate scroll" style="--i: 3"></span>
+        </div>
+
+        <div class="input-box">
+          <div class="input-field">
+            <input type="number" placeholder="Mobile Number" required />
+            <span class="focus"></span>
+          </div>
+
+          <div class="input-field">
+            <input type="text" placeholder="Email Subject" required />
+            <span class="focus"></span>
+          </div>
+
+          <span class="animate scroll" style="--i: 5"></span>
+        </div>
+
+        <div class="textarea-field">
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <span class="focus"></span>
+
+          <span class="animate scroll" style="--i: 7"></span>
+        </div>
+
+        <div class="btn-box btns">
+          <button type="submit" class="btn">Submit</button>
+
+          <span class="animate scroll" style="--i: 9"></span>
+        </div>
+      </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>AI & Backend Dev.</p>
+
+        <span class="animate scroll" style="--i: 1"></span>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#"><i class="bx bx-up-arrow-alt"></i></a>
+
+        <span class="animate scroll" style="--i: 3"></span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
