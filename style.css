@@ -84,7 +84,7 @@ section {
 }
 
 .home {
-  background: url("https://i.hizliresim.com/fzhx34q.jpg") no-repeat;
+  background: url("home.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
